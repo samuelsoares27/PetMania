@@ -1,0 +1,91 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_layoutadmin.cshtml";
+}
+
+@* LISTA OS CLIENTES *@
+<div class="container" float="heith">
+    <div class="well row">
+        <div class="col-md-12">
+            <button type="button" class="btn btn-info bt-cadastro-adm"><a style="color:white;" href="@Url.Action("Edit","Admin", new { id = 0 })">Adicionar Cliente</a></button>
+        </div>
+    </div>
+    <div class="ibox-content">
+        <div class="table-responsive">
+            <table id="dataTables-example" style="width:100%" class="table table-striped table-bordered dataTable">
+                <thead>
+                    <tr>
+                        <th class="sorting_asc" style="width: 289px;">ID</th>
+                        <th class="sorting" style="width: 356px;"> NOME</th>
+                        <th class="sorting" style="width: 356px;"> PET</th>
+                        <th class="sorting" style="width: 356px;"> SERVIÇO</th>
+                        <th class="sorting" style="width: 356px;"> DATA AGENDAMENTO</th>
+                        <th>EDITAR</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+</div>
+
+@* DATATABLES *@
+@section Scripts {
+    @Scripts.Render("~/Scripts/ListaCliente.js")
+    <script>
+        $(document).ready(function () {
+            $('#dataTables-example').DataTable({
+                "pageLength": 10,
+                dom: " < 'row' < 'col-sm-4'><'col-sm-4'B>>ftpi<'html5buttons'>",
+                buttons: [
+                    { extend: 'copy' },
+                    { extend: 'excel', title: 'Clientes' },
+                    { extend: 'pdf', title: 'Clientes' },
+                    {
+                        extend: 'print',
+                        customize: function (win) {
+                            $(win.document.body).addClass('white-bg');
+                            $(win.document.body).css('font-size', '10px');
+                            $(win.document.body).find('table')
+                                .addClass('compact')
+                                .css('font-size', 'inherit');
+                        }
+                    }
+                ],
+                serverSide: true,
+                "ajax": {
+                    "url": "@Url.Action("GetCliente")",
+                    "type": "GET",
+                    "dataType": "json",
+                    "data": "json",
+                },
+                "columns": [
+                    { "data": "IdCliente", "autoWidth": true, "searchable": true },
+                    { "data": "Nome", "autoWidth": true },
+                    { "data": "Pet", "autoWidth": true },
+                    { "data": "Servico", "autoWidth": true },
+                    { "data": "Agendamento", "autoWidth": true },
+                       {
+                           "data": null,
+                           "mRender": function (row, type, val, meta) {
+                               return '<div  class="text-center  font-20"><a href="' + '@Url.Action("Edit")/' + row.IdCliente + '"><i class="fa btn btn-lg btn-primary fa-edit"></i></a></div>'
+                           }
+                       }
+                ],
+                "oLanguage": {
+                    "sLengthMenu": "Exibir _MENU_ registros por página",
+                    "sZeroRecords": "Nenhum registro encontrado",
+                    "sInfo": "Exibindo _START_ a _END_ de _TOTAL_ registros",
+                    "sInfoEmpty": "Exibindo 0 a 0 de 0 registros",
+                    "sInfoFiltered": "(filtrado de _MAX_ registros)",
+                    "sSearch": "Busca:",
+                    "oPaginate": {
+                        "sFirst": "Primeira",
+                        "sLast": "Última",
+                        "sNext": "Próxima",
+                        "sPrevious": "Anterior"
+                    }
+                },
+            });
+        });
+    </script>
+}

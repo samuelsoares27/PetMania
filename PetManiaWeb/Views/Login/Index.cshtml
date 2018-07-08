@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+
+@* LOGIN *@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12" align="center">
+            <div class="style-logar">
+                <div class="title-logar">
+                    Faça o Login
+                </div>
+                <form class="form-logar">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                    </div>
+                    <div class="bt-logar"><button class="btn btn-info"><a href="@Url.Action("Index","Admin")">ENTRAR</a></button></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm">
+    </div>
+    <div class="style-desc-login">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <img src="~/img/img-precos-mais-baratos.png" />
+                </div>
+                <div class="col-sm">
+                    <img src="~/img/img-brindes-para-seu-pet.png" />
+                </div>
+                <div class="col-sm">
+                    <img src="~/img/img-agende-uma-data-e-hora.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

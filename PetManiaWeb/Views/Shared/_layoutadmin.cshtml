@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>PetMania</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    @RenderPage("~/Views/Shared/_topo.cshtml")
+
+    <!-- Corpo-->
+    @RenderBody()
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/scripts")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+<script type="text/javascript">
+
+    var ScreenModel = new ScreenModel();
+    ko.applyBindings(ScreenModel);
+
+</script>

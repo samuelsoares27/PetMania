@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>PetMania</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    @*<link href="~/Content/Style/carousel.css" rel="stylesheet" />
+    <link href="~/Content/Style/style-home.css" rel="stylesheet" />
+    <link href="~/Content/Style/style-login.css" rel="stylesheet" />
+    <link href="~/Content/Style/style-cadastro.css" rel="stylesheet" />*@
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <!-- Cabeçalho -->
+    @RenderPage("~/Views/Shared/_topo.cshtml")
+    @RenderPage("~/Views/Shared/_menu.cshtml")
+
+    <!-- Corpo-->
+    @RenderBody()
+
+    <!-- Rodapé -->
+    @RenderPage("~/Views/Shared/_rodape.cshtml")
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/scripts")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+<script type="text/javascript">
+
+    var ScreenModel = new ScreenModel();
+    ko.applyBindings(ScreenModel);
+
+</script>

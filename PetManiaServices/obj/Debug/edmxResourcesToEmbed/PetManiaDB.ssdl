@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PetManiaDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Agenda">
+    <Key>
+      <PropertyRef Name="IdAgenda" />
+    </Key>
+    <Property Name="IdAgenda" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Data" Type="datetime" />
+    <Property Name="IdCliente" Type="int" />
+    <Property Name="IdAnimal" Type="int" />
+    <Property Name="IdServico" Type="int" />
+    <Property Name="IdPetShop" Type="int" />
+  </EntityType>
+  <EntityType Name="Animal">
+    <Key>
+      <PropertyRef Name="IdAnimal" />
+    </Key>
+    <Property Name="IdAnimal" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome" Type="nvarchar" MaxLength="50" />
+    <Property Name="DataNasc" Type="datetime" />
+    <Property Name="IdTipoAnimal" Type="int" />
+    <Property Name="IdCliente" Type="int" />
+  </EntityType>
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="IdCliente" />
+    </Key>
+    <Property Name="IdCliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome" Type="nvarchar" MaxLength="100" />
+    <Property Name="CPF" Type="nvarchar" MaxLength="11" />
+    <Property Name="Endereco" Type="nvarchar" MaxLength="100" />
+    <Property Name="Numero" Type="nvarchar" MaxLength="40" />
+    <Property Name="Bairro" Type="nvarchar" MaxLength="60" />
+    <Property Name="Telefone" Type="nvarchar" MaxLength="20" />
+    <Property Name="Pet" Type="nvarchar" MaxLength="100" />
+    <Property Name="Servico" Type="nvarchar" MaxLength="100" />
+    <Property Name="Agendamento" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="GrupoUsuario">
+    <Key>
+      <PropertyRef Name="IdGrupoUsuario" />
+    </Key>
+    <Property Name="IdGrupoUsuario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descricao" Type="nvarchar" MaxLength="50" />
+    <Property Name="Tipo" Type="int" />
+  </EntityType>
+  <EntityType Name="PetShop">
+    <Key>
+      <PropertyRef Name="IdPetShop" />
+    </Key>
+    <Property Name="IdPetShop" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome" Type="nvarchar" MaxLength="100" />
+    <Property Name="CPF_CNPJ" Type="nvarchar" MaxLength="25" />
+    <Property Name="Endereco" Type="nvarchar" MaxLength="100" />
+    <Property Name="Numero" Type="nvarchar" MaxLength="20" />
+    <Property Name="Bairro" Type="nvarchar" MaxLength="60" />
+    <Property Name="Cidade" Type="nvarchar" MaxLength="60" />
+    <Property Name="CEP" Type="nvarchar" MaxLength="10" />
+    <Property Name="Telefone" Type="nvarchar" MaxLength="20" />
+    <Property Name="Celular" Type="nvarchar" MaxLength="20" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Servico">
+    <Key>
+      <PropertyRef Name="IdServico" />
+    </Key>
+    <Property Name="IdServico" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descricao" Type="nvarchar" MaxLength="50" />
+    <Property Name="IdPetShop" Type="int" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TipoAnimal">
+    <Key>
+      <PropertyRef Name="IdTipoAnimal" />
+    </Key>
+    <Property Name="IdTipoAnimal" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Raca" Type="nvarchar" MaxLength="50" />
+    <Property Name="Tipo" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="IdUsuario" />
+    </Key>
+    <Property Name="IdUsuario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Login" Type="nvarchar" MaxLength="50" />
+    <Property Name="Senha" Type="nvarchar" MaxLength="20" />
+    <Property Name="IdPetShop" Type="int" />
+    <Property Name="IdGrupoUsuario" Type="int" />
+  </EntityType>
+  <Association Name="FK_Agenda_Animal">
+    <End Role="Animal" Type="Self.Animal" Multiplicity="0..1" />
+    <End Role="Agenda" Type="Self.Agenda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Animal">
+        <PropertyRef Name="IdAnimal" />
+      </Principal>
+      <Dependent Role="Agenda">
+        <PropertyRef Name="IdAnimal" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Agenda_Cliente">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="0..1" />
+    <End Role="Agenda" Type="Self.Agenda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="IdCliente" />
+      </Principal>
+      <Dependent Role="Agenda">
+        <PropertyRef Name="IdCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Agenda_PetShop">
+    <End Role="PetShop" Type="Self.PetShop" Multiplicity="0..1" />
+    <End Role="Agenda" Type="Self.Agenda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PetShop">
+        <PropertyRef Name="IdPetShop" />
+      </Principal>
+      <Dependent Role="Agenda">
+        <PropertyRef Name="IdPetShop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Agenda_Servico">
+    <End Role="Servico" Type="Self.Servico" Multiplicity="0..1" />
+    <End Role="Agenda" Type="Self.Agenda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Servico">
+        <PropertyRef Name="IdServico" />
+      </Principal>
+      <Dependent Role="Agenda">
+        <PropertyRef Name="IdServico" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Animal_TipoAnimal">
+    <End Role="TipoAnimal" Type="Self.TipoAnimal" Multiplicity="0..1" />
+    <End Role="Animal" Type="Self.Animal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TipoAnimal">
+        <PropertyRef Name="IdTipoAnimal" />
+      </Principal>
+      <Dependent Role="Animal">
+        <PropertyRef Name="IdTipoAnimal" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuario_GrupoUsuario">
+    <End Role="GrupoUsuario" Type="Self.GrupoUsuario" Multiplicity="0..1" />
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GrupoUsuario">
+        <PropertyRef Name="IdGrupoUsuario" />
+      </Principal>
+      <Dependent Role="Usuario">
+        <PropertyRef Name="IdGrupoUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuario_PetShop">
+    <End Role="PetShop" Type="Self.PetShop" Multiplicity="0..1" />
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PetShop">
+        <PropertyRef Name="IdPetShop" />
+      </Principal>
+      <Dependent Role="Usuario">
+        <PropertyRef Name="IdPetShop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="PetManiaDBModelStoreContainer">
+    <EntitySet Name="Agenda" EntityType="Self.Agenda" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Animal" EntityType="Self.Animal" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GrupoUsuario" EntityType="Self.GrupoUsuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PetShop" EntityType="Self.PetShop" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Servico" EntityType="Self.Servico" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TipoAnimal" EntityType="Self.TipoAnimal" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Agenda_Animal" Association="Self.FK_Agenda_Animal">
+      <End Role="Animal" EntitySet="Animal" />
+      <End Role="Agenda" EntitySet="Agenda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Agenda_Cliente" Association="Self.FK_Agenda_Cliente">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Agenda" EntitySet="Agenda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Agenda_PetShop" Association="Self.FK_Agenda_PetShop">
+      <End Role="PetShop" EntitySet="PetShop" />
+      <End Role="Agenda" EntitySet="Agenda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Agenda_Servico" Association="Self.FK_Agenda_Servico">
+      <End Role="Servico" EntitySet="Servico" />
+      <End Role="Agenda" EntitySet="Agenda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Animal_TipoAnimal" Association="Self.FK_Animal_TipoAnimal">
+      <End Role="TipoAnimal" EntitySet="TipoAnimal" />
+      <End Role="Animal" EntitySet="Animal" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuario_GrupoUsuario" Association="Self.FK_Usuario_GrupoUsuario">
+      <End Role="GrupoUsuario" EntitySet="GrupoUsuario" />
+      <End Role="Usuario" EntitySet="Usuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuario_PetShop" Association="Self.FK_Usuario_PetShop">
+      <End Role="PetShop" EntitySet="PetShop" />
+      <End Role="Usuario" EntitySet="Usuario" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

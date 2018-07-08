@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PetManiaDBModelStoreContainer" CdmEntityContainer="PetManiaDBEntities">
+    <EntitySetMapping Name="Agenda">
+      <EntityTypeMapping TypeName="PetManiaDBModel.Agenda">
+        <MappingFragment StoreEntitySet="Agenda">
+          <ScalarProperty Name="IdAgenda" ColumnName="IdAgenda" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="IdAnimal" ColumnName="IdAnimal" />
+          <ScalarProperty Name="IdServico" ColumnName="IdServico" />
+          <ScalarProperty Name="IdPetShop" ColumnName="IdPetShop" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Animal">
+      <EntityTypeMapping TypeName="PetManiaDBModel.Animal">
+        <MappingFragment StoreEntitySet="Animal">
+          <ScalarProperty Name="IdAnimal" ColumnName="IdAnimal" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="DataNasc" ColumnName="DataNasc" />
+          <ScalarProperty Name="IdTipoAnimal" ColumnName="IdTipoAnimal" />
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GrupoUsuario">
+      <EntityTypeMapping TypeName="PetManiaDBModel.GrupoUsuario">
+        <MappingFragment StoreEntitySet="GrupoUsuario">
+          <ScalarProperty Name="IdGrupoUsuario" ColumnName="IdGrupoUsuario" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PetShop">
+      <EntityTypeMapping TypeName="PetManiaDBModel.PetShop">
+        <MappingFragment StoreEntitySet="PetShop">
+          <ScalarProperty Name="IdPetShop" ColumnName="IdPetShop" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="CPF_CNPJ" ColumnName="CPF_CNPJ" />
+          <ScalarProperty Name="Endereco" ColumnName="Endereco" />
+          <ScalarProperty Name="Numero" ColumnName="Numero" />
+          <ScalarProperty Name="Bairro" ColumnName="Bairro" />
+          <ScalarProperty Name="Cidade" ColumnName="Cidade" />
+          <ScalarProperty Name="CEP" ColumnName="CEP" />
+          <ScalarProperty Name="Telefone" ColumnName="Telefone" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Servico">
+      <EntityTypeMapping TypeName="PetManiaDBModel.Servico">
+        <MappingFragment StoreEntitySet="Servico">
+          <ScalarProperty Name="IdServico" ColumnName="IdServico" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="IdPetShop" ColumnName="IdPetShop" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="PetManiaDBModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoAnimal">
+      <EntityTypeMapping TypeName="PetManiaDBModel.TipoAnimal">
+        <MappingFragment StoreEntitySet="TipoAnimal">
+          <ScalarProperty Name="IdTipoAnimal" ColumnName="IdTipoAnimal" />
+          <ScalarProperty Name="Raca" ColumnName="Raca" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="PetManiaDBModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Senha" ColumnName="Senha" />
+          <ScalarProperty Name="IdPetShop" ColumnName="IdPetShop" />
+          <ScalarProperty Name="IdGrupoUsuario" ColumnName="IdGrupoUsuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="PetManiaDBModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="PetManiaDBModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="PetManiaDBModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="PetManiaDBModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PetManiaDBModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="PetManiaDBModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PetManiaDBModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="PetManiaDBModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="PetManiaDBModel.Store.sp_upgraddiagrams" />
+    <EntitySetMapping Name="Cliente">
+      <EntityTypeMapping TypeName="PetManiaDBModel.Cliente">
+        <MappingFragment StoreEntitySet="Cliente">
+          <ScalarProperty Name="Agendamento" ColumnName="Agendamento" />
+          <ScalarProperty Name="Servico" ColumnName="Servico" />
+          <ScalarProperty Name="Pet" ColumnName="Pet" />
+          <ScalarProperty Name="Telefone" ColumnName="Telefone" />
+          <ScalarProperty Name="Bairro" ColumnName="Bairro" />
+          <ScalarProperty Name="Numero" ColumnName="Numero" />
+          <ScalarProperty Name="Endereco" ColumnName="Endereco" />
+          <ScalarProperty Name="CPF" ColumnName="CPF" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

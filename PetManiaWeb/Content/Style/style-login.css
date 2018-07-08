@@ -1,0 +1,71 @@
+﻿body {
+    background-image: url('../../img/fundo.png');
+    background-repeat: repeat-x;
+}
+
+.style-logar {
+    background-color: #f5f4f4;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 50%;
+}
+
+.title-logar {
+    background-color: #edb74e;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.form-logar {
+    padding: 38px 30px 20px 30px;
+}
+
+.style-checkbox {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.bt-logar {
+    text-align: right;
+}
+
+
+.style-cadastrar {
+    background-color: #f5f4f4;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.title-cadastrar {
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #edb74e;
+}
+
+.form-cadastrar {
+    padding: 20px 30px 20px 30px;
+}
+
+.bt-cadastrar {
+    text-align: right;
+}
+
+.style-desc-login {
+    margin-bottom: 293px;
+    text-align: center;
+}
+
+    .style-desc-login img {
+        margin-bottom: 10px;
+    }
+
+.btn-info a {
+    text-decoration: none;
+    color: #ffffff;
+}

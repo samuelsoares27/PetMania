@@ -1,0 +1,259 @@
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\PetManiaServices.dll.config
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\PetManiaServices.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\PetManiaServices.pdb
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\csc.exe
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\csc.exe.config
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\csc.rsp
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\csi.exe
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\csi.exe.config
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\csi.rsp
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.AppContext.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.Console.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.IO.Compression.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.IO.Pipes.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.Claims.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.Threading.Thread.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.ValueTuple.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.Xml.XPath.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\vbc.exe
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\vbc.exe.config
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\vbc.rsp
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\VBCSCompiler.exe
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\Entities.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\EntityFramework.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\EntityFramework.SqlServer.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\Entities.pdb
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\Entities.dll.config
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\EntityFramework.xml
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\EntityFramework.SqlServer.xml
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\obj\Debug\PetManiaServices.csprojResolveAssemblyReference.cache
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\obj\Debug\PetManiaServices.csproj.CoreCompileInputs.cache
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\obj\Debug\PetManiaServices.csproj.CopyComplete
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\obj\Debug\PetManiaServices.dll
+C:\Users\jgass\Documents\PetMania\PetManiaWeb\PetManiaServices\obj\Debug\PetManiaServices.pdb
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\PetManiaServices.dll.config
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\PetManiaServices.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\PetManiaServices.pdb
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\csc.exe
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\csc.exe.config
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\csc.rsp
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\csi.exe
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\csi.exe.config
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\csi.rsp
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.AppContext.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.Console.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.IO.Compression.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.IO.Pipes.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.Claims.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.Threading.Thread.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.ValueTuple.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.Xml.XPath.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\vbc.exe
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\vbc.exe.config
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\vbc.rsp
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\VBCSCompiler.exe
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\Entities.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\EntityFramework.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\EntityFramework.SqlServer.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\Entities.pdb
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\Entities.dll.config
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\EntityFramework.xml
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\EntityFramework.SqlServer.xml
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\obj\Debug\PetManiaServices.csprojResolveAssemblyReference.cache
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\obj\Debug\PetManiaServices.csproj.CoreCompileInputs.cache
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\obj\Debug\PetManiaServices.csproj.CopyComplete
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\obj\Debug\PetManiaServices.dll
+C:\Users\jgass\Downloads\PetManiaWeb\PetManiaServices\obj\Debug\PetManiaServices.pdb
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\obj\Debug\PetManiaServices.csprojResolveAssemblyReference.cache
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\obj\Debug\PetManiaServices.csproj.CoreCompileInputs.cache
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\obj\Debug\PetManiaServices.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\obj\Debug\PetManiaServices.pdb
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\PetManiaServices.dll.config
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\PetManiaServices.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\PetManiaServices.pdb
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\csc.exe
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\csc.exe.config
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\csc.rsp
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\csi.exe
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\csi.exe.config
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\csi.rsp
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.AppContext.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.Console.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.IO.Compression.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.IO.Pipes.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.Claims.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.Threading.Thread.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.ValueTuple.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.Xml.XPath.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\vbc.exe
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\vbc.exe.config
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\vbc.rsp
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\VBCSCompiler.exe
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\Entities.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\EntityFramework.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\EntityFramework.SqlServer.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\Entities.pdb
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\Entities.dll.config
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\EntityFramework.xml
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\EntityFramework.SqlServer.xml
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jgass\Desktop\PetManiaWeb\PetManiaServices\obj\Debug\PetManiaServices.csproj.CopyComplete
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\PetManiaServices.dll.config
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\PetManiaServices.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\PetManiaServices.pdb
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\csc.exe
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\csc.exe.config
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\csc.rsp
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\csi.exe
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\csi.exe.config
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\csi.rsp
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.AppContext.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.Console.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.IO.Compression.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.Claims.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.ValueTuple.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\vbc.exe
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\vbc.exe.config
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\vbc.rsp
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\VBCSCompiler.exe
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\Entities.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\EntityFramework.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\EntityFramework.SqlServer.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\Entities.pdb
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\Entities.dll.config
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\EntityFramework.xml
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\EntityFramework.SqlServer.xml
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\obj\Debug\PetManiaServices.csprojResolveAssemblyReference.cache
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\obj\Debug\PetManiaServices.csproj.CoreCompileInputs.cache
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\obj\Debug\PetManiaServices.dll
+C:\Users\Samuel Soares\Desktop\5 Período\PetManiaWeb\PetManiaServices\obj\Debug\PetManiaServices.pdb

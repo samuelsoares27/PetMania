@@ -1,0 +1,29 @@
+﻿<header>
+    <nav class="navbar navbar-expand-lg navbar-light style-navbar">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span> Menu
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <div class="style-bt-menu">
+                            <a class="nav-link" href="@Url.Action("Index","Home")">Início <span class="sr-only">(current)</span></a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="style-link-menu">
+                            <a class="nav-link" href="@Url.Action("Edit","Cliente", new { id = 0 })">Agendar <span class="sr-only">(current)</span></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="icon-social">
+                <a class="icon-social-facebook" href=""><i class="fa fa-facebook-square"></i></a>
+                <a class="icon-social-instagram" href=""><i class="fa fa-instagram"></i></a>
+                <a class="icon-social-instagram" href=""><i class="fa fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </nav>
+    <div class="barra-menu"></div>
+</header>

@@ -1,0 +1,145 @@
+﻿.navbar-top {
+    height: 80px;
+    background-color: #f1f1f1;
+    position: relative;
+    width: 100%;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 8px;
+    float: left;
+}
+
+.style-login {
+    float: right;
+    text-align: center;
+    padding-top: 20px;
+}
+
+    .style-login a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #351f12;
+    }
+
+        .style-login a:hover {
+            text-decoration: underline;
+        }
+
+.style-navbar {
+    background-color: #351f12;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.icon-social {
+    margin-right: 18px;
+}
+
+    .icon-social a {
+        font-size: 25px;
+        color: #ffffff;
+        margin-right: 10px;
+    }
+
+        .icon-social a:hover {
+            color: #ffb943;
+        }
+
+.barra-menu {
+    height: 10px;
+    background-color: #ffb943;
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .style-bt-menu .nav-link {
+    font-weight: bold;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+    .navbar-light .navbar-nav .style-bt-menu .nav-link:hover {
+        color: #ffb943;
+    }
+
+.navbar-light .navbar-nav .style-link-menu .nav-link {
+    color: #bfbebe;
+}
+
+    .navbar-light .navbar-nav .style-link-menu .nav-link:hover {
+        color: #ffb943;
+    }
+
+.carousel {
+    margin-bottom: 0px;
+}
+
+.style-desc-banner {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+    .style-desc-banner img {
+        margin-top: 10px;
+    }
+
+.style-dsc-info {
+    margin-top: 40px;
+    background-image: url('../../img/fundo.png');
+    background-repeat: repeat-x;
+}
+
+    .style-dsc-info .container img {
+        width: 90%;
+    }
+
+.style-img-cad {
+    width: 100%;
+}
+
+.style-cad-rodape {
+    width: 100%;
+    height: auto;
+    background-color: #5dc6c7;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.form-cad-rodape {
+    margin-top: 10px;
+}
+
+    .form-cad-rodape .form-control {
+        height: 48px;
+    }
+
+.title-cad {
+    font-family: 'Arial Rounded MT';
+    font-size: 50px;
+    color: #351f12;
+}
+
+.subtitle-cad {
+    font-family: 'Arial Rounded MT';
+    font-size: 15px;
+    color: #235454;
+}
+
+.style-rodape {
+    width: 100%;
+    height: 60px;
+    background-color: #f1f1f1;
+    position: relative;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.btn-danger a {
+    text-decoration: none;
+    color: #ffffff;
+}

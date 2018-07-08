@@ -1,0 +1,22 @@
+﻿body {
+}
+
+.logo-menu {
+    width: 80%;
+    padding: 0px;
+    margin: auto;
+}
+
+.sidebar[data-color="purple"] li.active > a {
+    background-color: #ffb943;
+    color: #351f12;
+}
+
+.sidebar .nav li.active > a, .sidebar .nav li.active > a i {
+    color: #351f12;
+}
+
+.bt-cadastro-adm {
+    float: right;
+    margin-top: 10px;
+}
